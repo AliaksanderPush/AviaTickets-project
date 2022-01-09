@@ -1,0 +1,68 @@
+.mess-users {
+  margin-bottom: 10px;
+}
+
+.mess-users span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.avia1 {
+  height: 100%;
+}
+
+.anim-show {
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.anim-show .anime,
+.anime .anim-show {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
+}
+.text {
+  overflow: hidden;
+}
+
+.moment-images {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-right: 10px;
+  transform: scale(1);
+  transition: all 0.8s ease 0.4s;
+}
+
+.moment-item .anime .moment-images {
+  transform: scale(1);
+}
+
+#one p .left-anime {
+  transform: translate(120% 0px);
+  transition: all 0.8s ease 0.4s;
+}
+
+.left-anime .anime,
+.anime .left-anime {
+  transform: translate(0px, 0px);
+}
+
+.text-content {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+h5,
+h6 {
+  text-align: center;
+  font-weight: bold;
+}
+.moment-item {
+  margin: 20px 0px;
+}
+
+.moment-item .service {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 2rem;
+}

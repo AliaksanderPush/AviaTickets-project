@@ -1,0 +1,227 @@
+@import "font.css";
+@import "flightanimation.css";
+@import "textanimation.css";
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+app-root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+router-outlet {
+  flex: 1 0 auto;
+}
+
+.for-preload {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px 0;
+}
+.mes-keybord {
+  text-align: center;
+  font-weight: 500;
+}
+.wrap-auth .auth-h6 {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.nav-wrapper {
+  background: #0c73fe;
+}
+.nav-wrapper li a {
+  font-size: 1.4rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.justify-items-between {
+  justify-content: space-between;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg {
+  background-color: #0c73fe;
+  padding: 1% 0;
+}
+.ml-auto {
+  margin-left: auto;
+}
+
+.waves-effect {
+  background-color: orange;
+  display: block;
+  margin: 0 auto;
+}
+
+.wg {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.page-footer {
+  background-color: #0c73fe;
+}
+.ticket-card {
+  padding: 10px 15px;
+}
+
+.ticket-airline-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.ticket-airline-img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.ticket-destination {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed gray;
+}
+
+.ticket-destination .ticket-city {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.ticket-destination i.material-icons {
+  font-size: 26px;
+}
+
+.ticket-time-departure {
+  font-weight: bold;
+  color: gray;
+}
+
+.ticket-price {
+  font-size: 25px;
+  padding: 5px;
+  background: #0c73fe;
+  color: #fff;
+}
+
+.ticket-additional-info {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tickets-empty-res-msg {
+  padding: 10px 15px;
+  text-align: center;
+  background: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
+.page-footer {
+  padding-top: 0;
+}
+.map svg {
+  margin-top: 30px;
+}
+
+page-footer .footer-copyright {
+  color: white;
+}
+
+.invalid {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+}
+.soccess {
+  color: green;
+  font-size: 16px;
+  text-align: center;
+}
+
+.invalid_inp {
+  border: 1px solid red;
+}
+.countTiket {
+  margin-left: 5px;
+  color: grey;
+}
+.tiket-count {
+  color: orange;
+}
+.button-remove {
+  margin-top: 5px;
+}
+
+.button-plus {
+  display: inline;
+}
+.button-minus {
+  display: inline;
+}
+.view-count-tickets {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.wrap-auth h2 {
+  text-align: center;
+}
+.clear-display {
+  display: none;
+}
+.show {
+  display: block;
+}
+.getTickets {
+  margin-top: 10px;
+}
+.summa {
+  font-size: 16px;
+  font-weight: 700;
+  color: blue;
+  margin-left: 5px;
+}
+.wind-summa {
+  font-size: 16px;
+  font-weight: 700;
+}
+.auth-h6 {
+  margin: 40px 0px;
+}
